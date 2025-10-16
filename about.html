@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodora</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-secondary text-gray-800">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16 relative">
+        <a href="index.html" class="text-3xl font-bold text-red-600 tracking-wide">Food<span class="text-gray-800">Ora</span></a>
+        
+        <nav id="main_manu" class="hidden md:flex space-x-8">
+            <a href="index.html" class="text-gray-600 hover:text-red-600 transition duration-300 font-medium">Home</a>
+            <a href="Recipes.html" class="text-gray-600 hover:text-red-600 transition duration-300 font-medium">Recipes</a>
+            <a href="categories.html" class="text-gray-600 hover:text-red-600 transition duration-300 font-medium">Categories</a>
+            <a href="about.html" class="text-gray-600 hover:text-red-600 transition duration-300 font-medium">About</a>
+            <a href="#" class="bg-red-600 text-white px-3 py-1 rounded-full text-sm hover:bg-red-700 transition duration-300">Subscribe</a>
+        </nav>
+        
+        <button id="mobile_icon" class="md:hidden text-gray-600 hover:text-red-600 transition duration-300">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+    </div>
+    
+    <nav id="mobile_menu" class="hidden md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg py-4 border-t border-gray-100 transition-all duration-300 ease-in-out">
+        <a href="index.html" class="block px-4 py-2 text-gray-600 hover:text-red-600 transition duration-300 font-medium">Home</a>
+        <a href="Recipes.html" class="block px-4 py-2 text-gray-600 hover:text-red-600 transition duration-300 font-medium">Recipes</a>
+        <a href="categories.html" class="block px-4 py-2 text-gray-600 hover:text-red-600 transition duration-300 font-medium">Categories</a>
+        <a href="about.html" class="block px-4 py-2 text-gray-600 hover:text-red-600 transition duration-300 font-medium">About</a>
+        <a href="#" class="block mx-4 mt-2 text-center bg-red-600 text-white px-3 py-2 rounded-lg text-sm hover:bg-red-700 transition duration-300">Subscribe</a>
+    </nav>
+</header>
+    <section class="relative bg-gray-900 h-[600px] flex items-center">
+        <img src="images/about1.jpeg" alt="foodora" class="absolute w-full h-full inset-0 object-cover opacity-60">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white z-10">
+            <h1 class="text-6xl font-extrabold leading-tight tracking-tighter sm:text-7xl lg:text-8xl text-white">About Us</h1>
+                <p class="mt-4 max-w-2xl text-xl text-gray-100">Explore a world of flavors! From sizzling street food to gourmet meals, DelishBite brings you the best dishes, recipes, and food experiences to satisfy your cravings.</p>
+        <div class="mt-8">
+            <a href="Recipes.html" class="inline-block bg-red-600 text-white text-lg font-semibold py-3 px-8 rounded-lg shadow-xl hover:bg-red-700 transition duration-300 transform hover:scale-105">Browse Recipes</a>
+        </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold mb-12 border-b-2 border-red-600 text-center pb-2">About <span class="text-red-600">Us</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="px-4 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition duration-300 m-2 py-6 md:py-0">
+                <h2 class="text-xl font-semibold text-red-600 mb-4">About Us</h2>
+                <p class="text-gray-500 text-sm inline-block ">At Foodora, we understand that life is busy, but good food shouldn't be a sacrifice. We are a dedicated resource for the modern home cook, committed to delivering reliable, delicious, and approachable recipes for every day of the week. Our content is designed to be easy to follow, using simple ingredients and realistic timelines. Think of us as your trusted kitchen guide—helping you get satisfying meals on the table, effortlessly.</p>
+            </div>
+            <div class="px-4 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition duration-300 m-2 py-1 md:py-0">
+                <h2 class="text-red-600 text-xl mb-2 font-semibold">Let's Eat</h2>
+                <img src="images/about.jpg" alt="pasta">
+            </div>
+        </div>
+    </section>
+    <script src="function.js"></script>
+    </body>
